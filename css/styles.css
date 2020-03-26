@@ -1,6 +1,6 @@
 .description{
   float: right;
-  border: 1px solid blue;
+  border: 1px solid black;
   margin-top: 20px;
 }
 .animal{
@@ -11,4 +11,6 @@
 }
 img{
   display: none;
+  cursor: pointer;
+ 
 }

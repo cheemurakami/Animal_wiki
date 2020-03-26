@@ -1,13 +1,29 @@
 $(document).ready(function(){
  var answer = prompt("cat, dog, or turtle?");
- if (answer === "cat"){
-   $
-   $(".cat-description").show();
- } else if (answer === "dog"){
-   $(".dog-description").show();
- } else if (answer === "turtle"){
-   $(".turtle-description").show();
- } else {
-   alert('Please pick one from those three');
- };
-});
+  if (answer.toLowerCase() === "cat"){
+   $(".cat-img").show();
+  } else {
+    $(".cat-img").hide();
+  }
+    $(".cat-img").click(function(){
+    $(".cat-description").show();
+  });
+
+  if (answer.toLowerCase() === "dog"){
+    $(".dog-img").show();
+  } else {
+    $(".dog-img").hide();
+  }
+    $(".dog-img").click(function(){
+    $(".dog-description").show();
+    });
+
+  if (answer.toLowerCase() === "turtle"){
+    $(".turtle-img").show();
+  } else {
+    $(".turtle-img").hide();
+  }
+    $(".turtle-img").click(function(){
+    $(".turtle-description").show();
+    });
+  });
