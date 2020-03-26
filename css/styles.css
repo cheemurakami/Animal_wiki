@@ -1,0 +1,14 @@
+.description{
+  float: right;
+  border: 1px solid blue;
+  margin-top: 20px;
+}
+.animal{
+  margin-top: 20px;
+}
+.description{
+  display: none;
+}
+img{
+  display: none;
+}
